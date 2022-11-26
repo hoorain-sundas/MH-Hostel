@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+.bgcolor{
+    background-color: #172736 !important;
+}
+.textcolor{
+    color:aqua
+}
+.secdiv:hover{
+    color: aqua !important;
+   
+}
+.image{
+    background-image:url(images/Mainpic.jpg);
+    /* background-image:url(https://media.istockphoto.com/id/1254374019/photo/a-building-with-hostel-sign-good-place-for-college-life-students.jpg?s=1024x1024&w=is&k=20&c=aGa57rEmrQOQ_vPRHWvOq-JMM008LaStASi_WbG0w-Y=); */
+    background-repeat: no-repeat;
+    width: 200%;
+    height: 1000px;
+}
+/* image div margin */
+.margin1{
+    margin-top: 300px !important;
+    margin-bottom: 200px !important;
+}
+.btn{
+    background-color: aqua !important;
+    color: white !important;
+    
+}
+.btn:hover{
+    background-color: white !important;
+    color:aqua !important;
+}
+.pos{
+    position: relative;
+    bottom: 50px;
+}
+.main{
+    text-align: center;
+}
+.imgs{
+    display: none;
+}
+.btn1{
+    font-size: medium;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px;
+    margin-left: 50px;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    /* border: 6px solid burlywood; */
+    position: relative;
+    right: 470px;
+    bottom: 300px;
+}
+.btn2{
+    font-size: medium;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px;
+    margin-left: 50px;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    /* border: 6px solid burlywood; */
+    position: relative;
+    left: 450px;
+    bottom: 300px;
+}
+#displayimg{
+    width: 1100px;
+    height: 500px; 
+    /* border: 8px solid burlywood; */
+ } 
