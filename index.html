@@ -1,354 +1,313 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hostel Website</title>
-    <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  </head>
-  <body>
-<div>  
-    <div class="image">
-        <div class="bg-dark text-white m-0">
-            <h1 class="fst-italic p-2 m-0">M&H Hostel</h1>
-        </div>
-        <div class="bgcolor">
-            <p class="ps-5"><i class="fa-solid fa-phone textcolor ps-5 p-3"></i> <a href="#" class="text-decoration-none"><span class="text-white secdiv"> (021) 32468330</span></a> <i class="fa-solid fa-envelope textcolor ps-5"></i><a href="#" class="text-decoration-none"><span class="p-2 text-white secdiv"> info.abc@gmail.com</span></a></p>
-        </div>
-        <nav class="navbar navbar-expand-lg bg-white sticky-top m-0">
-            <div class="container-fluid">
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-               </button>
-              <a class="navbar-brand ps-5" href="#"><i class="fa-solid fa-hotel"></i></a>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                          <a class="nav-link active ps-5" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active ps-5" aria-current="page" href="#service">Services</a>
-                          </li>
-                        <li class="nav-item">
-                          <a class="nav-link active ps-5" aria-current="page" href="#">Rooms</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link active ps-5" aria-current="page" href="#">Contacts</a>
-                        </li>
-                    </ul>
-                  <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-              </div>
-          </div>
-       </nav>
-       <div class=" mt-5 margin1">
-          <h1>Welcome To HM Hostel</h1>
-       </div>
-   </div>
-   <div class="container pos">
-      <div class="row bg-secondary p-3">
-          <div class="col-md-2">
-              <div class="me-3">
-                 <label for="check-in" class="ms-5 ">Check In</label>
-                 <br>
-                 <input type="date" id="check-in" class="p-2 ms-5">
-              </div>
-            </div>
-            <div class="col-md-2">
-               <div class="ms-3">
-                  <label for="check-Out" class="ms-5">Check Out</label>
-                  <br>
-                  <input type="date" id="check-Out" class="p-2 ms-5">
-               </div>
-            </div>   
-            <div class="col-md-2">
-               <div class="ms-5">
-                  <label for="select" class="ms-5">Room</label>
-                  <br>
-                  <select name="room" id="room" class="p-2 ms-5">
-                      <option value="number">00</option>
-                      <option value="number">01</option>
-                      <option value="number">02</option>
-                      <option value="number">03</option>
-                      <option value="number">04</option>
-                      <option value="number">05</option>
-                      
-                   </select>
-               </div>    
-            </div>
-            <div class="col-md-2">
-                <div class="ms-2">
-                   <label for="select" class="ms-5">Adult</label>
-                   <br>
-                   <select name="Adult" id="Adult" class="p-2 ms-5">
-                       <option value="number">00</option>
-                       <option value="number">01</option>
-                       <option value="number">02</option>
-                       <option value="number">03</option>
-                       <option value="number">04</option>
-                       <option value="number">05</option>  
-                    </select>
-                </div>    
-            </div>
-            <div class="col-md-2">
-                <div class="">
-                    <label for="select" class="">Children</label>
-                    <br>
-                    <select name="Children" id="Children" class="p-2">
-                       <option value="number">00</option>
-                       <option value="number">01</option>
-                       <option value="number">02</option>
-                       <option value="number">03</option>
-                       <option value="number">04</option>
-                       <option value="number">05</option>
-                    </select>
-                </div>    
-            </div>
-            <div class="col-md-2">
-                <div class="mt-4">
-                    <button class="btn rounded-0 p-2"> Check Availability</button>
-                </div>
-            </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hostel Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div>
+    <div class="col-md-12 image">
+
+      <div class="bg-dark text-white m-0">
+        <h1 id="home" class="fst-italic p-2 m-0">M&H Hostel</h1>
       </div>
-   </div>
-   <div class="container bg-white">
-    <div class="row">
+      <div class="bgcolor">
+        <p class="ps-5"><i class="fa-solid fa-phone textcolor ps-5 p-3"></i> <a href="#"
+            class="text-decoration-none"><span class="text-white secdiv"> (021) 32468330</span></a> <i
+            class="fa-solid fa-envelope textcolor ps-5"></i><a href="#" class="text-decoration-none"><span
+              class="p-2 text-white secdiv"> info.abc@gmail.com</span></a></p>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-white sticky-top m-0">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand ps-5" href="#"><i class="fa-solid fa-hotel"></i></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active ps-5" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active ps-5" aria-current="page" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active ps-5" aria-current="page" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn12 " type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class=" text-center margin1 heading">
+        <img src="/images/hostel-buildings.jpg" width="100%" alt="">
+        <h1>Comfortable and Affordable Hostel Rooms</h1>
+      </div>
+    </div>
+
+    <div class="container bg-white">
+      <div class="row">
         <h2 id="service" class="text-center fw-bolder mb-4 mt-2">Services</h2>
         <div class="col-md-4">
-            <div class="p-2 border text-center">
-                <div class="mb-2 border">
-                  <img src="images/roomimg1.jpg" alt="" width="100%" height="250px">
-                </div>  
-              <h5 class="fw-bold">Furnished Rooms</h5>
-              <p>We provide fully Furnished rooms with quality mattresses, proper lighting, tables closets and other required facilities</p>
+          <div class="p-2 border text-center">
+            <div class="mb-2 border">
+              <img src="images/roomimg1.jpg" alt="" width="100%" height="250px">
             </div>
+            <h5 class="fw-bold">Furnished Rooms</h5>
+            <p>We provide fully Furnished rooms with quality mattresses, proper lighting, tables closets and other
+              required facilities</p>
+          </div>
         </div>
         <div class="col-md-4">
-            <div class="p-2 border text-center">
-                <div class="border mb-2">
-                    <img src="https://www.bobology.com/members/images/249.jpg" alt="" width="100%" height="250px">
-                </div>
-              <!-- <img src="https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188506/content_images/670x335/20200617130145-1-ilustrasi-wifi-002-ikhwan-arief-prihastian.jpg" alt="" width="100%"> -->
-              <h5 class="fw-bold">WIFI</h5>
-              <p>We provide wireless highspeed internet so that you can stay connected with your friends and family.</p>
+          <div class="p-2 border text-center">
+            <div class="border mb-2">
+              <img src="https://www.bobology.com/members/images/249.jpg" alt="" width="100%" height="250px">
             </div>
+            <h5 class="fw-bold">WIFI</h5>
+            <p>We provide wireless highspeed internet so that you can stay connected with your friends and family.</p>
+          </div>
         </div>
         <div class="col-md-4">
-            <div class="p-2 border text-center">
-                <div class="mb-2 border">
-                  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/505bde0f-4976-404b-be7d-1edc1acff84b/demdrms-b94cee2c-1846-442b-b522-1391a5b8008d.png/v1/fill/w_1190,h_671,q_70,strp/hostel_mess_scene_by_varnika22_demdrms-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIyIiwicGF0aCI6IlwvZlwvNTA1YmRlMGYtNDk3Ni00MDRiLWJlN2QtMWVkYzFhY2ZmODRiXC9kZW1kcm1zLWI5NGNlZTJjLTE4NDYtNDQyYi1iNTIyLTEzOTFhNWI4MDA4ZC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ATU2U1KyKO_ShoqBlgtomxz0fG1EW7UTKwjB5qsF2kE" alt="" width="100%" height="250px">
-                </div>  
-              <h5 class="fw-bold">Mess Facility</h5>
-              <p>We cater to your food requirements as well. We provide breakfast, lunch and dinner services in our mess.</p>
+          <div class="p-2 border text-center">
+            <div class="mb-2 border">
+              <img src="images/hostelmess1.jpg" alt="" width="100%" height="250px">
             </div>
+            <h5 class="fw-bold">Mess Facility</h5>
+            <p>We cater to your food requirements as well. We provide breakfast, lunch and dinner services in our mess.
+            </p>
+          </div>
         </div>
         <div class="col-md-4">
-            <div class="p-2 border text-center mt-4">
-                <div class="mb-2 border">
-                  <img src="images/housekeepingimg.jpg" alt="" width="100%" height="250px">
-                </div>  
-              <h5 class="fw-bold">House keeping</h5>
-              <p>We also provide house keeping services like laundry, dish cleaning and room cleaning based on requirements</p>
+          <div class="p-2 border text-center mt-4">
+            <div class="mb-2 border">
+              <img src="images/housekeepingimg.jpg" alt="" width="100%" height="250px">
             </div>
+            <h5 class="fw-bold">House keeping</h5>
+            <p>We also provide house keeping services like laundry, dish cleaning and room cleaning based on
+              requirements</p>
+          </div>
         </div>
         <div class="col-md-4">
-            <div class="p-2 border text-center mt-4">
-                <div class="border mb-2">
-                    <img src="images/generatorimg.jpg" alt="" width="100%" height="250px">
-                </div>
-              <!-- <img src="https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188506/content_images/670x335/20200617130145-1-ilustrasi-wifi-002-ikhwan-arief-prihastian.jpg" alt="" width="100%"> -->
-              <h5 class="fw-bold">Generator Facility</h5>
-              <p>We provide you generator facility to avoid discomfort.</p>
+          <div class="p-2 border text-center mt-4">
+            <div class="border mb-2">
+              <img src="images/watchmen12.jpg" alt="" width="100%" height="250px">
             </div>
+            <!-- <img src="https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/17/1188506/content_images/670x335/20200617130145-1-ilustrasi-wifi-002-ikhwan-arief-prihastian.jpg" alt="" width="100%"> -->
+            <h5 class="fw-bold">Watchmen</h5>
+            <p>Depending on the purpose of keeping a close watch on the visitors and passers by we provide efficient
+              watchmen.</p>
+          </div>
         </div>
         <div class="col-md-4">
-            <div class="p-2 border text-center mt-4">
-                <div class="mb-2 border">
-                  <img src="https://thumbs.dreamstime.com/b/basic-rgb-216205765.jpg" alt="" width="100%" height="250px">
-                </div>  
-              <h5 class="fw-bold">Watchmen</h5>
-              <p>Depending on the purpose of keeping a close watch on the visitors and passers by we provide efficient watchmen.</p>
+          <div class="p-2 border text-center mt-4">
+            <div class="mb-2 border">
+              <img src="images/armed-guard.jpg" alt="" width="100%" height="250px">
             </div>
+            <h5 class="fw-bold">Armed Guards</h5>
+            <p>Our security agency facilitates guards who have prolific knowledge in handling licensed
+              arms to tackle situations.</p>
+          </div>
         </div>
-        
+
 
 
         <div class="col-md-6">
-            <div class="mt-5">
-                <h1>About us</h1>
-                <p>We, M&H Hostel, situated at offer a pocket friendly stay to each patron and and welcome
-                 them with complete warmth and hospitality. We offer an array of all essential services 
-                 that are rendered by the hostel for a hassle free stay at no extra costs. For accommodation,
-                 the property offers spacious, airy and well-lit rooms, featuring sophisticated and welcoming 
-                 ambience with the warmth and comfort of home. We take utmost care of the safety and security 
-                 of individuals and their belongings staying in our hostel.</p>
-                
-            </div>
+          <div class="mt-5 text-center">
+            <h1 class="fw-bolder mb-4" id="about">About Us</h1>
+            <p>We, M&H Hostel, situated at PIB Colony, Karachi East, Karachi, offer a pocket friendly stay to each patron and and welcome
+              them with complete warmth and hospitality. We offer an array of all essential services
+              that are rendered by the hostel for a hassle free stay at no extra costs. For accommodation,
+              the property offers spacious, airy and well-lit rooms, featuring sophisticated and welcoming
+              ambience with the warmth and comfort of home. We take utmost care of the safety and security
+              of individuals and their belongings staying in our hostel.</p>
+
+          </div>
         </div>
         <div class="col-md-6">
-            <div class="mt-5">
-                <img src="images/img7.jpg" width="100%" alt="">
-                <!-- <img src="https://image.shutterstock.com/image-vector/hostel-room-interior-cartoon-people-260nw-1846284646.jpg" width="100%" alt=""> -->
-            </div>
+          <div class="mt-5">
+            <img src="images/img7.jpg" width="100%" alt="">
+          </div>
         </div>
+
         <div class="col-md-12">
-            <div class="main">
-                <h1 class="fw-bolder mt-5"> Gallery </h1>
-                <div id ="display">
-                    <img src="" alt="" id="displayimg" width="100%">
-                </div>
-                <div id="parent">
-                    <img src="images/roomimg1.jpg" alt="" class="imgs" width="100%">
-                    <img src="images/roomimg2.jpg" alt="" class="imgs" width="100%">
-                    <img src="images/roomimg3.jpg" alt="" class="imgs" width="100%">
-                    <img src="images/roomimg4.jpg" alt="" class="imgs" width="100%">
-                    <img src="images/img7.jpg" alt="" class="imgs" width="100%">
-                    <img src="images/img4.jpg" alt="" class="imgs" width="100%">
-                    <img src="images/mess-img.jpg" alt="" class="imgs" width="100%">
-                    <img src="images/hostel mess.jpg" alt="" class="imgs" width="100%">
-                    <img src="images/house-keeping.jpg" alt="" class="imgs" width="100%">
-                </div>
-                <button class="btn1 border-0 " onclick="prev()"><i class="fa-solid fa-backward"></i></button>
-                <button class="btn2 border-0" onclick="next()"><i class="fa-solid fa-forward"></i></button>
+          <div class="main">
+            <h1 class="fw-bolder mt-5 mb-4" id="gallery"> Gallery </h1>
+            <div id="display">
+              <img src="" alt="" id="displayimg" width="100%">
             </div>
+            <div id="parent">
+              <img src="images/roomimg1.jpg" alt="" class="imgs" width="100%">
+              <img src="images/roomimg2.jpg" alt="" class="imgs" width="100%">
+              <img src="images/roomimg3.jpg" alt="" class="imgs" width="100%">
+              <img src="images/roomimg4.jpg" alt="" class="imgs" width="100%">
+              <img src="images/hostel-reception.jpg" alt="" class="imgs" width="100%">
+              <img src="images/messpic1.jpg" alt="" class="imgs" width="100%">
+              <img src="images/hostelmess1.jpg" alt="" class="imgs" width="100%">
+              <img src="images/hostelmess2.jpg" alt="" class="imgs" width="100%">
+              <img src="images/housekeepingimg.jpg" alt="" class="imgs" width="100%">
+            </div>
+            <button class="btn1 border-0 " onclick="prev()"><i class="fa-solid fa-backward"></i></button>
+            <button class="btn2 border-0" onclick="next()"><i class="fa-solid fa-forward"></i></button>
+          </div>
         </div>
+
         <div class="row">
-            <div class="col-md-6">
-                <div>
-                    <p><span>Our Office Address</span></p>
-                    <br>
-                    <p><span>General Enquiries</span></p>
-                    <br>
-                    <p><span>Call Us</span></p>
-                    <br>
-                    <p><span>Our Timing</span></p>
-    
-                </div>
-                <div class="col-md-6">
-                    <div>
-                        <input type="text" placeholder="YOUR NAME" id="name">
-                        <input type="text" placeholder="YOUR EMAIL" id="email">
-                        <input type="text" placeholder="YOUR CONTACT NO." id="number">
-                       <!-- <input type="text" placeholder="YOUR MESSAGE" class=""> -->
-                        <textarea name="" id="" cols="30" rows="10" placeholder="YOUR MESSAGE" id="message"></textarea>
-    
-                    </div>
-                </div>
-        </div>
-        </div>
-    </div>
-   </div>
-</div>
+          <div class="col-md-6">
+            <div class="mt-5 ">
+               <h1 class="fw-bolder mb-4 text-center" id="contact">Contact Us</h1>
+          
+            
+                 <p><i class="fa-solid fa-location-dot fs-2"></i><span class="ms-4 fs-5 fw-bold">Our Office Address</span><br> </p>
+                 <br>
+                 <p><i class="fa-solid fa-envelope fs-2"></i><span class="ms-4 fs-5 fw-bold">General Enquiries</span><br><span class="mx-5"> websupport@mhdial.com</span></p>
+                 <br>
+                 <p><i class="fa-solid fa-phone fs-2"></i><span class="ms-4 fs-5 fw-bold">Call Us</span><br><span class="mx-5">+92-8888888888</span></p>
+                 <br>
+                 <p><i class="fa-solid fa-clock fs-2"></i><span class="ms-4 fs-5 fw-bold">Our Timing</span><br><span class="mx-5">Mon-Sun: 10:00 AM - 07:00 PM</span></p>
 
-<!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="container my-5 bg-dark">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div>
+              <input type="text" placeholder="YOUR NAME" id="name" class="m-3 px-5 py-2">
+              <br>
+              <input type="text" placeholder="YOUR EMAIL" id="email" class="m-3 px-5 py-2">
+              <br>
+              <input type="text" placeholder="YOUR CONTACT NO." id="number" class="m-3 px-5 py-2">
+              <br>
+              <textarea name="" id="" cols="30" rows="10" placeholder="YOUR MESSAGE" id="message" class="m-3 px-5 py-2"></textarea>
+               <br>
+               <input type="submit" class="rounded-pill border-0 py-2 px-3 btn12 align-items-center mx-3">
+            </div>
+          </div>
 
-    <footer class="text-white text-center text-lg-start bg-primary">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!--Grid row-->
-      <div class="row mt-4">
-        <!--Grid column-->
-        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4 text-decoration-underline fw-bolder">HM Hostel</h5>
-  
-          <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-            voluptatum deleniti atque corrupti.
-          </p>
-  
-          <p>
-            Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
-            molestias.
-          </p>
-  
-          <div class="mt-4">
-            <!-- Facebook -->
-            <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-facebook-f"></i></a>
-            <!-- Dribbble -->
-            <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-dribbble"></i></a>
-            <!-- Twitter -->
-            <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-twitter"></i></a>
-            <!-- Google + -->
-            <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-google-plus-g"></i></a>
-            <!-- Linkedin -->
+          <!-- iframe div start  -->
+          <div class="my-5 p-1">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.3245850356125!2d67.05129371427131!3d24.8869076840414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ef09feb1111%3A0xaec8ad0ad03e62b7!2sJail%20Rd%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1669580743609!5m2!1sen!2s"
+              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
+          <!-- iframe div end  -->
+
+          <!-- </div> -->
         </div>
-        <!--Grid column-->
-  
-        <!--Grid column-->
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
-  
-          <div class="form-outline form-white mb-4">
-            <input type="text" id="formControlLg" class="form-control form-control-lg" />
-            <label class="form-label" for="formControlLg">Search</label>
-          </div>
-  
-          <ul class="fa-ul" style="margin-left: 1.65em;">
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
-            </li>
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
-            </li>
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
-            </li>
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567 89</span>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-  
-        <!--Grid column-->
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4">Opening hours</h5>
-  
-          <table class="table text-center text-white">
-            <tbody class="font-weight-normal">
-              <tr>
-                <td>Mon - Thu:</td>
-                <td>8am - 9pm</td>
-              </tr>
-              <tr>
-                <td>Fri - Sat:</td>
-                <td>8am - 1am</td>
-              </tr>
-              <tr>
-                <td>Sunday:</td>
-                <td>9am - 10pm</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <!--Grid column-->
       </div>
-      <!--Grid row-->
+    </div>
+  </div>
+
+  <!-- footer start here  -->
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+
+    <div class="container pt-4 col-md-12 text-dark">
+      <div class="row">
+        <div class="col-md-6 text-start footerLeft">
+          <span><a class="ps-2 " href="#home">Home</a></span>
+          <span><a class=" ps-2" href="#service">Services</a></span>
+          <span><a class=" ps-2" href="#about">About Us</a></span>
+          <span><a class=" ps-2" href="#gallery">Gallery</a></span>
+          <span><a class=" ps-2" href="#contact">Contact Us</a></span>
+
+        </div>
+        <div class="col-md-6 text-end">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4 text-end">
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
     </div>
     <!-- Grid container -->
   
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2021 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <div class="text-center text-dark p-3" style="background-color: rgb(255, 123, 0);">
+      © 2020 Copyright:
+      <a class="text-dark" href="">mandhhostel.com</a>
     </div>
     <!-- Copyright -->
   </footer>
-  
-</div>
-<!-- End of .container -->
-    
-    <script src="app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+
+  <!-- footer end here  -->
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
